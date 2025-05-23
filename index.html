@@ -8,262 +8,263 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-  <!-- Sidebar -->
-  <aside class="sidebar">
-    <img src="assets/profile.jpg" alt="Murtaza Shafiq" class="profile-img">
-    <h1 class="profile-name">Murtaza Shafiq</h1>
-    <p class="profile-title">Data Analyst and Consultant</p>
-    
-    <div class="contact-info">
-      <div class="contact-item">
-        <i class="fas fa-envelope"></i>
-        <a href="mailto:shafiqm@purdue.edu">shafiqm@purdue.edu</a>
-      </div>
-      <div class="contact-item">
-        <i class="fas fa-map-marker-alt"></i>
-        <span>West Lafayette, Indiana, USA</span>
-      </div>
-      <div class="contact-item">
-        <i class="fas fa-phone"></i>
-        <a href="tel:+17656949162">(765) 694-9162</a>
-      </div>
-    </div>
-
-    <div class="social-links">
-      <a href="https://linkedin.com/in/muhammad-murtaza-shafiq/" target="_blank">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="https://github.com/MurtazaShafiq" target="_blank">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-  </aside>
-
-  <!-- Main Content -->
-  <main class="main-content">
-    <nav class="main-nav">
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+  <div class="main-container">
+    <!-- Top Navigation -->
+    <nav class="top-nav">
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
     </nav>
 
-    <section id="about" class="section">
-      <h2>About me</h2>
-      <p class="about-text">
-        Data Analyst and Consultant with expertise in Python, SQL, Tableau and PowerBI, delivering measurable business impact through advanced analytics, machine learning, churn prediction, operational optimizations, and customer retention strategies. Adept at stakeholder collaboration, and translating complex data into actionable insights across SaaS, e-commerce, and retail industries.
-      </p>
-
-      <div class="what-i-do">
-        <h3>What I do</h3>
-        <div class="services-grid">
-          <div class="service-item">
-            <i class="fas fa-chart-line"></i>
-            <h4>Data Analytics</h4>
-            <p>Advanced analytics and data-driven insights for business optimization.</p>
-          </div>
-          <div class="service-item">
-            <i class="fas fa-brain"></i>
-            <h4>Machine Learning</h4>
-            <p>Predictive modeling and ML solutions for business challenges.</p>
-          </div>
-          <div class="service-item">
-            <i class="fas fa-database"></i>
-            <h4>Data Engineering</h4>
-            <p>ETL pipeline development and data warehouse optimization.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="tech-stack">
-        <h3>My Tech Stack</h3>
-        <div class="tech-grid">
-          <div class="tech-item">Python</div>
-          <div class="tech-item">SQL</div>
-          <div class="tech-item">Tableau</div>
-          <div class="tech-item">PowerBI</div>
-          <div class="tech-item">Databricks</div>
-          <div class="tech-item">AWS</div>
-          <div class="tech-item">Azure</div>
-          <div class="tech-item">Git</div>
-          <div class="tech-item">Scikit-learn</div>
-        </div>
-      </div>
-
-      <div class="certifications">
-        <h3>Certifications</h3>
-        <div class="tech-grid">
-          <div class="tech-item">IBM Data Science Professional Certificate</div>
-          <div class="tech-item">Azure Fundamentals (AZ-900)</div>
-          <div class="tech-item">Azure AI Fundamentals (AI-900)</div>
-        </div>
-      </div>
-    </section>
-
-    <section id="portfolio" class="section">
-      <h2>Portfolio</h2>
-      <div class="portfolio-filters">
-        <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="ml">Machine Learning</button>
-        <button class="filter-btn" data-filter="analytics">Analytics</button>
-        <button class="filter-btn" data-filter="visualization">Visualization</button>
-      </div>
-
-      <div class="portfolio-grid">
-        <div class="portfolio-item" data-category="ml">
-          <img src="assets/airbnb.png" alt="Airbnb Retention Strategy">
-          <div class="portfolio-content">
-            <h3>Airbnb Retention Strategy</h3>
-            <p>Machine Learning</p>
-            <a href="airbnb-retention.html" class="portfolio-link">View Project →</a>
-          </div>
-        </div>
-
-        <div class="portfolio-item" data-category="ml">
-          <img src="assets/bank.png" alt="Bank Churn Prediction">
-          <div class="portfolio-content">
-            <h3>Bank Churn Prediction</h3>
-            <p>Machine Learning</p>
-            <a href="bank-churn.html" class="portfolio-link">View Project →</a>
-          </div>
-        </div>
-
-        <div class="portfolio-item" data-category="visualization">
-          <img src="assets/crime.png" alt="LA Crime Analysis">
-          <div class="portfolio-content">
-            <h3>LA Crime Analysis</h3>
-            <p>Data Visualization</p>
-            <a href="la-crime-analysis.html" class="portfolio-link">View Project →</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="resume" class="section">
-      <h2>Resume</h2>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <img src="assets/profile.jpg" alt="Murtaza Shafiq" class="profile-img">
+      <h1 class="profile-name">Murtaza Shafiq</h1>
+      <p class="profile-title">Data Analyst and Consultant</p>
       
-      <div class="experience">
-        <h3>Experience</h3>
-        <div class="timeline">
-          <div class="timeline-item">
-            <div class="timeline-content">
-              <h4>Data Analyst Consultant — Industry Practicum</h4>
-              <h5>AgReliant</h5>
-              <span class="date">January 2025 — Present</span>
-              <ul>
-                <li>Uncovered root causes of inefficiencies in intercompany transfers and customer-to-warehouse mapping.</li>
-                <li>Built a Tableau dashboard to visualize transfer delays and fragmentation patterns.</li>
-                <li>Developed an ETL pipeline in Databricks using SQL for KPI automation.</li>
-                <li>Designed a two-stage stochastic linear programming model for optimization.</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-content">
-              <h4>Sales Engineer — Analytics and Data Science Projects</h4>
-              <h5>EZO</h5>
-              <span class="date">August 2023 — August 2024</span>
-              <ul>
-                <li>Led 50+ technical discovery sessions and tailored SaaS demos.</li>
-                <li>Secured and onboarded two Fortune 100 clients.</li>
-                <li>Developed ensemble churn prediction models using advanced ML techniques.</li>
-                <li>Engineered features and optimized model performance.</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-content">
-              <h4>Technical Project Manager — Data Analytics Consultant</h4>
-              <h5>AverLynx</h5>
-              <span class="date">April 2021 — August 2023</span>
-              <ul>
-                <li>Led cross-functional teams for data-driven analytics solutions.</li>
-                <li>Designed and executed A/B testing strategies.</li>
-                <li>Built customer segmentation solutions using RFM modeling.</li>
-                <li>Developed sales forecasting models with high accuracy.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="education">
-        <h3>Education</h3>
-        <div class="tech-grid">
-          <div class="tech-item">
-            <h4>Purdue University, Daniels School of Business</h4>
-            <p>MS Business Analytics & Information Management</p>
-            <span class="date">August 2025</span>
-          </div>
-          <div class="tech-item">
-            <h4>Ghulam Ishaq Khan Institute</h4>
-            <p>BS Computer Science</p>
-            <span class="date">June 2018</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="skills">
-        <h3>My Skills</h3>
-        <div class="skills-grid">
-          <div class="skill-item">
-            <h4>Data Analysis & Visualization</h4>
-            <div class="skill-bar">
-              <div class="skill-level" style="width: 95%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <h4>Machine Learning & Predictive Modeling</h4>
-            <div class="skill-bar">
-              <div class="skill-level" style="width: 90%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <h4>ETL & Data Pipeline Development</h4>
-            <div class="skill-bar">
-              <div class="skill-level" style="width: 85%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <h4>Stakeholder Management & Communication</h4>
-            <div class="skill-bar">
-              <div class="skill-level" style="width: 90%"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section">
-      <h2>Contact</h2>
-      <div class="contact-grid">
+      <div class="contact-info">
         <div class="contact-item">
           <i class="fas fa-envelope"></i>
-          <h4>Email</h4>
           <a href="mailto:shafiqm@purdue.edu">shafiqm@purdue.edu</a>
         </div>
         <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>West Lafayette, Indiana, USA</span>
+        </div>
+        <div class="contact-item">
           <i class="fas fa-phone"></i>
-          <h4>Phone</h4>
           <a href="tel:+17656949162">(765) 694-9162</a>
         </div>
-        <div class="contact-item">
-          <i class="fab fa-linkedin"></i>
-          <h4>LinkedIn</h4>
-          <a href="https://linkedin.com/in/muhammad-murtaza-shafiq/" target="_blank">View Profile</a>
-        </div>
-        <div class="contact-item">
-          <i class="fab fa-github"></i>
-          <h4>GitHub</h4>
-          <a href="https://github.com/MurtazaShafiq" target="_blank">View Projects</a>
-        </div>
       </div>
-    </section>
-  </main>
+
+      <div class="social-links">
+        <a href="https://linkedin.com/in/muhammad-murtaza-shafiq/" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/MurtazaShafiq" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <section id="about" class="section">
+        <h2>About me</h2>
+        <p class="about-text">
+          Data Analyst and Consultant with expertise in Python, SQL, Tableau and PowerBI, delivering measurable business impact through advanced analytics, machine learning, churn prediction, operational optimizations, and customer retention strategies. Adept at stakeholder collaboration, and translating complex data into actionable insights across SaaS, e-commerce, and retail industries.
+        </p>
+
+        <div class="what-i-do">
+          <h3>What I do</h3>
+          <div class="services-grid">
+            <div class="service-item">
+              <i class="fas fa-chart-line"></i>
+              <h4>Data Analytics</h4>
+              <p>Advanced analytics and data-driven insights for business optimization.</p>
+            </div>
+            <div class="service-item">
+              <i class="fas fa-brain"></i>
+              <h4>Machine Learning</h4>
+              <p>Predictive modeling and ML solutions for business challenges.</p>
+            </div>
+            <div class="service-item">
+              <i class="fas fa-database"></i>
+              <h4>Data Engineering</h4>
+              <p>ETL pipeline development and data warehouse optimization.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-stack">
+          <h3>My Tech Stack</h3>
+          <div class="tech-grid">
+            <div class="tech-item">Python</div>
+            <div class="tech-item">SQL</div>
+            <div class="tech-item">Tableau</div>
+            <div class="tech-item">PowerBI</div>
+            <div class="tech-item">Databricks</div>
+            <div class="tech-item">AWS</div>
+            <div class="tech-item">Azure</div>
+            <div class="tech-item">Git</div>
+            <div class="tech-item">Scikit-learn</div>
+          </div>
+        </div>
+
+        <div class="certifications">
+          <h3>Certifications</h3>
+          <div class="tech-grid">
+            <div class="tech-item">IBM Data Science Professional Certificate</div>
+            <div class="tech-item">Azure Fundamentals (AZ-900)</div>
+            <div class="tech-item">Azure AI Fundamentals (AI-900)</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section">
+        <h2>Portfolio</h2>
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="ml">Machine Learning</button>
+          <button class="filter-btn" data-filter="analytics">Analytics</button>
+          <button class="filter-btn" data-filter="visualization">Visualization</button>
+        </div>
+
+        <div class="portfolio-grid">
+          <div class="portfolio-item" data-category="ml">
+            <img src="assets/airbnb.png" alt="Airbnb Retention Strategy">
+            <div class="portfolio-content">
+              <h3>Airbnb Retention Strategy</h3>
+              <p>Machine Learning</p>
+              <a href="airbnb-retention.html" class="portfolio-link">View Project →</a>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="ml">
+            <img src="assets/bank.png" alt="Bank Churn Prediction">
+            <div class="portfolio-content">
+              <h3>Bank Churn Prediction</h3>
+              <p>Machine Learning</p>
+              <a href="bank-churn.html" class="portfolio-link">View Project →</a>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="visualization">
+            <img src="assets/crime.png" alt="LA Crime Analysis">
+            <div class="portfolio-content">
+              <h3>LA Crime Analysis</h3>
+              <p>Data Visualization</p>
+              <a href="la-crime-analysis.html" class="portfolio-link">View Project →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="section">
+        <h2>Resume</h2>
+        
+        <div class="experience">
+          <h3>Experience</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <h4>Data Analyst Consultant — Industry Practicum</h4>
+                <h5>AgReliant</h5>
+                <span class="date">January 2025 — Present</span>
+                <ul>
+                  <li>Uncovered root causes of inefficiencies in intercompany transfers and customer-to-warehouse mapping.</li>
+                  <li>Built a Tableau dashboard to visualize transfer delays and fragmentation patterns.</li>
+                  <li>Developed an ETL pipeline in Databricks using SQL for KPI automation.</li>
+                  <li>Designed a two-stage stochastic linear programming model for optimization.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <h4>Sales Engineer — Analytics and Data Science Projects</h4>
+                <h5>EZO</h5>
+                <span class="date">August 2023 — August 2024</span>
+                <ul>
+                  <li>Led 50+ technical discovery sessions and tailored SaaS demos.</li>
+                  <li>Secured and onboarded two Fortune 100 clients.</li>
+                  <li>Developed ensemble churn prediction models using advanced ML techniques.</li>
+                  <li>Engineered features and optimized model performance.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <h4>Technical Project Manager — Data Analytics Consultant</h4>
+                <h5>AverLynx</h5>
+                <span class="date">April 2021 — August 2023</span>
+                <ul>
+                  <li>Led cross-functional teams for data-driven analytics solutions.</li>
+                  <li>Designed and executed A/B testing strategies.</li>
+                  <li>Built customer segmentation solutions using RFM modeling.</li>
+                  <li>Developed sales forecasting models with high accuracy.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="education">
+          <h3>Education</h3>
+          <div class="tech-grid">
+            <div class="tech-item">
+              <h4>Purdue University, Daniels School of Business</h4>
+              <p>MS Business Analytics & Information Management</p>
+              <span class="date">August 2025</span>
+            </div>
+            <div class="tech-item">
+              <h4>Ghulam Ishaq Khan Institute</h4>
+              <p>BS Computer Science</p>
+              <span class="date">June 2018</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills">
+          <h3>My Skills</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <h4>Data Analysis & Visualization</h4>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 95%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <h4>Machine Learning & Predictive Modeling</h4>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <h4>ETL & Data Pipeline Development</h4>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <h4>Stakeholder Management & Communication</h4>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 90%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <div class="contact-grid">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <h4>Email</h4>
+            <a href="mailto:shafiqm@purdue.edu">shafiqm@purdue.edu</a>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <h4>Phone</h4>
+            <a href="tel:+17656949162">(765) 694-9162</a>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <h4>LinkedIn</h4>
+            <a href="https://linkedin.com/in/muhammad-murtaza-shafiq/" target="_blank">View Profile</a>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-github"></i>
+            <h4>GitHub</h4>
+            <a href="https://github.com/MurtazaShafiq" target="_blank">View Projects</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
 
   <script>
     // Smooth Scrolling
