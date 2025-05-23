@@ -8,36 +8,48 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-  <nav class="main-nav">
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#resume">Resume</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <header class="main-header">
-    <div class="header-content">
-      <h1>Murtaza Shafiq</h1>
-      <p class="title">Data Analyst and Consultant</p>
-      <div class="contact-buttons">
-        <button onclick="showContacts()" class="show-contacts-btn">Connect With Me</button>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <img src="assets/profile.jpg" alt="Murtaza Shafiq" class="profile-img">
+    <h1 class="profile-name">Murtaza Shafiq</h1>
+    <p class="profile-title">Data Analyst and Consultant</p>
+    
+    <div class="contact-info">
+      <div class="contact-item">
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:shafiqm@purdue.edu">shafiqm@purdue.edu</a>
       </div>
-      <div class="quick-contacts">
-        <div class="contact-item">
-          <i class="fas fa-envelope"></i>
-          <a href="mailto:shafiqm@purdue.edu">shafiqm@purdue.edu</a>
-        </div>
-        <div class="contact-item">
-          <i class="fas fa-map-marker-alt"></i>
-          <span>West Lafayette, Indiana, USA</span>
-        </div>
+      <div class="contact-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>West Lafayette, Indiana, USA</span>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-phone"></i>
+        <a href="tel:+17656949162">(765) 694-9162</a>
       </div>
     </div>
-  </header>
 
-  <main>
+    <div class="social-links">
+      <a href="https://linkedin.com/in/muhammad-murtaza-shafiq/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/MurtazaShafiq" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
     <section id="about" class="section">
       <h2>About me</h2>
       <p class="about-text">
@@ -254,32 +266,6 @@
   </main>
 
   <script>
-    // Show/Hide Contacts
-    function showContacts() {
-      const quickContacts = document.querySelector('.quick-contacts');
-      quickContacts.classList.toggle('show');
-    }
-
-    // Portfolio Filtering
-    document.querySelectorAll('.filter-btn').forEach(button => {
-      button.addEventListener('click', () => {
-        const filter = button.getAttribute('data-filter');
-        
-        // Update active button
-        document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-        button.classList.add('active');
-        
-        // Filter portfolio items
-        document.querySelectorAll('.portfolio-item').forEach(item => {
-          if (filter === 'all' || item.getAttribute('data-category') === filter) {
-            item.style.display = 'block';
-          } else {
-            item.style.display = 'none';
-          }
-        });
-      });
-    });
-
     // Smooth Scrolling
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
