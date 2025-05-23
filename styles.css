@@ -101,6 +101,7 @@ body::before {
     overflow-y: auto;
 }
 
+/* Profile Circle with yellow border */
 .profile-circle {
     width: 180px;
     height: 180px;
@@ -120,6 +121,8 @@ body::before {
     height: 100%;
     object-fit: cover;
     display: block;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .profile-name {
