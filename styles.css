@@ -424,11 +424,13 @@ h2::after {
 }
 
 .skill-item {
-    background: var(--bg-secondary);
+    background: rgba(17, 34, 64, 0.7);
     padding: 1.5rem;
     border-radius: 8px;
     border: 1px solid rgba(167, 139, 250, 0.1);
     transition: all 0.3s ease;
+    position: relative;
+    z-index: 3;
 }
 
 .skill-item:hover {
@@ -436,13 +438,41 @@ h2::after {
     border-color: var(--accent-color);
 }
 
+.skill-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
 .skill-header h4 {
     color: var(--text-primary);
     font-size: 1.1rem;
+    margin: 0;
 }
 
 .skill-header span {
     color: var(--accent-color);
+}
+
+.skill-bar {
+    height: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+    z-index: 4;
+}
+
+.skill-level {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: var(--accent-color);
+    border-radius: 3px;
+    transition: width 0.5s ease;
+    z-index: 5;
 }
 
 /* Contact Grid */
