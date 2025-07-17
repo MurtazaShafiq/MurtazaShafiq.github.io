@@ -88,6 +88,6 @@ This portfolio template is open-source under the [MIT License](LICENSE).
 
 - 📧 Email: [shafiqm@purdue.edu](mailto:shafiqm@purdue.edu)
 - 🔗 LinkedIn: [linkedin.com/in/mayankbambal](https://www.linkedin.com/in/muhammad-murtaza-shafiq/)
-- 🐙 GitHub: [[github.com/MayankBambal](https://github.com/MayankBambal/)](https://github.com/MurtazaShafiq)
+- 🐙 GitHub: [[github.com/MurtazaShafiq](https://github.com/MurtazaShafiq/)]
 
 Feel free to connect for collaborations, feedback, or opportunities!
