@@ -1,6 +1,6 @@
 # Welcome to My Portfolio
 
-I’m **Mayank Bambal**, an MS candidate in Business Analytics & Information Management at Purdue University (graduating August 2025). With a B.Tech in Mechanical Engineering from IIT Indore (2019), I design and implement data-driven solutions that drive business impact across industries.
+I’m **Muhammad Murtaza Shafiq**, an MS candidate in Business Analytics & Information Management at Purdue University (graduating August 2025). With a BS in Computer Science and over 5 years of cross-functional experience in analytics, consulting, and product delivery, I specialize in building data-driven solutions that blend technical depth with business impact.business impact across industries.
 
 - 🔍 **Background & Achievements**: Learn about my journey, skills, and key accomplishments on the [About](/about/) page.
 - 📂 **Projects & Code**: Explore detailed case studies, open-source projects, and portfolio highlights on the [Projects](/projects/) page.
@@ -86,8 +86,8 @@ This portfolio template is open-source under the [MIT License](LICENSE).
 
 ## Contact
 
-- 📧 Email: [mbambal@purdue.edu](mailto:mbambal@purdue.edu)
-- 🔗 LinkedIn: [linkedin.com/in/mayankbambal](https://linkedin.com/in/mayankbambal/)
-- 🐙 GitHub: [github.com/MayankBambal](https://github.com/MayankBambal/)
+- 📧 Email: [shafiqm@purdue.edu](mailto:shafiqm@purdue.edu)
+- 🔗 LinkedIn: [linkedin.com/in/mayankbambal](https://www.linkedin.com/in/muhammad-murtaza-shafiq/)
+- 🐙 GitHub: [[github.com/MayankBambal](https://github.com/MayankBambal/)](https://github.com/MurtazaShafiq)
 
 Feel free to connect for collaborations, feedback, or opportunities!
